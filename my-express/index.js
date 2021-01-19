@@ -5,7 +5,7 @@ const app = express();
 const axios = require('axios'); 
 
 app.use(cors({
-  origin: 'djnhavesfyhcf.cloudfront.net'
+  origin: 'https://djnhavesfyhcf.cloudfront.net'
 }));
 
 app.get('/', async function (req, res) {
